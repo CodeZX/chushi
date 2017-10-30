@@ -1,0 +1,260 @@
+//
+//  PrefixHeader.pch
+//  百思不得姐
+//
+//  Created by 周鑫 on 16/2/15.
+//  Copyright © 2016年 WYC. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+XMGExtension.h"
+#import "UIBarButtonItem+WYCExtesion.h"
+#import "WYCConst.h"
+#import "NSDate+WYCExtision.h"
+#import "HttpTool.h"
+#import "UserInfo.h"
+#import "WYCAccount.h"
+#import "WYCAccountTool.h"
+#import "WYCIsAppLoginTool.h"
+#import <SVProgressHUD.h>
+/*********************************************************************
+ *************************信用卡智能还款APP接口文档*********************
+ ********************************************************************/
+/**
+ *类型
+ */
+//注册验证码类型
+#define Rcodekey @"reg"
+
+
+//注册验证码类型
+#define Lcodekey @"login"
+
+
+//注册验证码类型
+#define Ucodekey @"upwd"
+
+//密钥
+#define RSA_P_KEY @"MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCTrzMjhdhm73apUJQurTBEEFZjMJ1pXAnhP+l7bLdXjIOtxwKVZMckFGHKyhxQGDT2yKKOqI5R9hrtXESq1r6rjutM4CuKYezcZ07UGjy8D6HEkEN11eiYCuWTG/Hb1+25iT1tkCfsZZGk9s5o+I+c3Q8ui2w1Ft996770rv7xTwIDAQAB"
+
+
+/***********域名********/
+
+#define HTTPS @"http://ccp.winzhong.net"
+
+/******* 接口 ********/
+
+
+
+
+/*********************短信通知接口文档******************/
+//发送验证码注册reg
+#define Rcode [NSString stringWithFormat:@"%@/notice/sms/authcode?",HTTPS]
+
+
+//验证短信码注册reg
+#define Rigstercode [NSString stringWithFormat:@"%@/notice/sms/verifyAuthCode?",HTTPS]
+
+
+
+/***********************用户相关接口文档************************/
+//用户实名认证
+#define userauth [NSString stringWithFormat:@"%@/user/auth?",HTTPS]
+
+//打开关闭指纹支付
+#define fingerprintPay [NSString stringWithFormat:@"%@/user/fingerprintPay?",HTTPS]
+
+
+//登录
+#define Login [NSString stringWithFormat:@"%@/user/login?",HTTPS]
+
+
+//点击修改密码
+#define modifyPassword [NSString stringWithFormat:@"%@/user/modifyPassword?",HTTPS]
+
+
+
+//点击修改支付密码
+#define modifyPayPassword [NSString stringWithFormat:@"%@/user/modifyPayPassword?",HTTPS]
+
+//用户注册
+#define Register [NSString stringWithFormat:@"%@/user/reg?",HTTPS]
+
+
+
+
+//保存银行卡信息
+#define saveDebitCard [NSString stringWithFormat:@"%@/user/saveDebitCard?",HTTPS]
+
+//保存手持银行卡照片
+#define saveDebitCardhold [NSString stringWithFormat:@"%@/user/saveDebitCard/hold?",HTTPS]
+
+
+//保存身份证信息(反面)
+#define saveIdCardback [NSString stringWithFormat:@"%@/user/saveIdCard/back?",HTTPS]
+
+
+//保存身份证信息（正面）
+#define saveIdCardface [NSString stringWithFormat:@"%@/user/saveIdCard/face?",HTTPS]
+
+
+//保存手持身份证照片
+#define saveIdCardhold [NSString stringWithFormat:@"%@/user/saveIdCard/hold?",HTTPS]
+
+
+
+/********************** 地址相关接口文档***********************/
+//获取地址列表
+#define AddressList [NSString stringWithFormat:@"%@/address/list?",HTTPS]
+
+
+
+/********************消费计划相关接口文档******************/
+//根据银行、日还金额获取消费计划列表
+#define Consumeplanlist [NSString stringWithFormat:@"%@/consumeplan/list?",HTTPS]
+
+
+/*********************信用卡相关接口文档********************/
+//添加信用卡
+#define AddCreditCard [NSString stringWithFormat:@"%@/creditcard/addCreditCard?",HTTPS]
+
+//获取信用卡列表
+#define Details [NSString stringWithFormat:@"%@/creditcard/details?",HTTPS]
+
+
+//导入信用卡账单【手动】
+#define ImportBillManual [NSString stringWithFormat:@"%@/creditcard/importBillManual?",HTTPS]
+
+
+//获取信用卡列表
+#define creditcardlist [NSString stringWithFormat:@"%@/creditcard/list?",HTTPS]
+
+
+
+/*********************文件上传接口文档********************/
+//上传图片
+#define uploadimage [NSString stringWithFormat:@"%@/upload/image?",HTTPS]
+
+
+
+
+
+/*********************银行接口文档*************************/
+//获取银行列表
+#define BankList [NSString stringWithFormat:@"%@/bank/list?",HTTPS]
+
+
+
+
+/******************印刷文字识别接口文档*************************/
+//银行卡识别
+#define ocrbankcard [NSString stringWithFormat:@"%@/ocr/bankcard?",HTTPS]
+
+//身份证识别
+#define ocridcard [NSString stringWithFormat:@"%@/ocr/idcard?",HTTPS]
+
+
+
+
+#ifdef DEBUG
+#define WYCLog(...) NSLog(__VA_ARGS__)
+#else
+#define WYCLog(...)
+#endif
+#define WYCLogFunc WYCLog(@"%s",__func__)
+#define NSMutable [NSMutableDictionary dictionary]
+#define  KEY_USERNAME_PASSWORD @"com.company.app.usernamepassword"
+
+#define  KEY_USERNAME @"com.company.app.username"
+
+#define  KEY_PASSWORD @"com.company.app.password"
+
+/**
+ *长度
+ */
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+
+
+/**
+ *高度
+ */
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+
+/**
+ *颜色RGB
+ */
+#define WYCRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+
+
+// 7.常用的对象
+#define IWNotificationCenter [NSNotificationCenter defaultCenter]
+
+/**
+ 高中低颜色值
+ */
+#define GaoColor RGB(51, 51, 51)
+#define ZhongColor RGB(102, 102, 102)
+#define DiColor RGB(153, 153, 153)
+
+
+//比例
+#define px (ScreenWidth / 1242)
+
+
+/**
+ 大中小字号
+ */
+#define SuperBigFont 80*px
+#define BigFont 60*px
+#define BigMiddleFont 55*px
+#define MiddleFont 50*px
+#define SmallFont 40*px
+#define WyzFont 48*px
+
+/**
+ *72字号
+ */
+#define sevenLight [UIFont systemFontOfSize:72*px weight:UIFontWeightLight]
+
+
+/**
+ *48字号
+ */
+#define forLight [UIFont systemFontOfSize:48*px weight:UIFontWeightLight]
+
+
+/**
+ *56字号
+ */
+#define MiddleLight [UIFont systemFontOfSize:56*px weight:UIFontWeightLight]
+
+
+/**
+ *64字号
+ */
+#define BigLight [UIFont systemFontOfSize:64*px weight:UIFontWeightLight]
+
+/**
+ *40字号
+ */
+#define smallLight [UIFont systemFontOfSize:40*px weight:UIFontWeightRegular]
+
+
+/**
+ 提示语
+ */
+
+#define msgStr [NSString stringWithFormat:@"%@",responseObject[@"msg"]]
+
+#define Loading @"玩命加载中..."
+#define Failed @"服务器链接失败，请稍后重试！"
+
+#define WYCGlobalBg WYCRGBColor(246, 246, 246)
+
+#define WYZGrayBg WYCRGBColor(204, 204, 204)
+
+#define WYZBlackBg WYCRGBColor(0, 0, 0)
+#endif

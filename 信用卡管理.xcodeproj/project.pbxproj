@@ -1,0 +1,1233 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BED32891FA6D43C00C81357 /* WYCHttpRequestBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BED32881FA6D43C00C81357 /* WYCHttpRequestBaseModel.m */; };
+		1BED328C1FA708CE00C81357 /* AddressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BED328A1FA708CE00C81357 /* AddressView.m */; };
+		323BBC7C1FA03A4D0013A9EE /* WYCIDHoldController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323BBC7B1FA03A4D0013A9EE /* WYCIDHoldController.m */; };
+		323BBC7F1FA03BFE0013A9EE /* WYCDebitCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 323BBC7E1FA03BFE0013A9EE /* WYCDebitCardController.m */; };
+		32607CA21FA2D18C00D817FE /* WYCPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32607CA11FA2D18C00D817FE /* WYCPickerView.m */; };
+		326881391FA1D7530097EFA5 /* WYCprovinceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 326881381FA1D7530097EFA5 /* WYCprovinceModel.m */; };
+		328CD69B1F9EE5B900B8A888 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 328CD69A1F9EE5B900B8A888 /* Assets.xcassets */; };
+		328CD6A11F9EE5B900B8A888 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6A01F9EE5B900B8A888 /* main.m */; };
+		328CD6AB1F9EE5B900B8A888 /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6AA1F9EE5B900B8A888 /* _____Tests.m */; };
+		328CD6B61F9EE5B900B8A888 /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6B51F9EE5B900B8A888 /* _____UITests.m */; };
+		328CD7CE1F9EE8D900B8A888 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7331F9EE71F00B8A888 /* AppDelegate.m */; };
+		328CD7CF1F9EE96700B8A888 /* WYCPhotographController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6C71F9EE71F00B8A888 /* WYCPhotographController.m */; };
+		328CD7D01F9EE96700B8A888 /* WYCBindingIDSideController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6C81F9EE71F00B8A888 /* WYCBindingIDSideController.m */; };
+		328CD7D11F9EE96700B8A888 /* WYCRigsterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6C91F9EE71F00B8A888 /* WYCRigsterController.m */; };
+		328CD7D21F9EE96700B8A888 /* WYCCityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6CA1F9EE71F00B8A888 /* WYCCityController.m */; };
+		328CD7D31F9EE96700B8A888 /* WYCBankCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6CB1F9EE71F00B8A888 /* WYCBankCardController.m */; };
+		328CD7D41F9EE96700B8A888 /* WYCBindingIDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6CD1F9EE71F00B8A888 /* WYCBindingIDController.m */; };
+		328CD7D51F9EE96700B8A888 /* WYCModifyController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6CE1F9EE71F00B8A888 /* WYCModifyController.m */; };
+		328CD7D61F9EE96700B8A888 /* WYCLoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6D01F9EE71F00B8A888 /* WYCLoginController.m */; };
+		328CD7D71F9EE96700B8A888 /* WYCAuthenticationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6D11F9EE71F00B8A888 /* WYCAuthenticationController.m */; };
+		328CD7D81F9EE96700B8A888 /* WYCBindingIDSideController.h in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6D31F9EE71F00B8A888 /* WYCBindingIDSideController.h */; };
+		328CD7D91F9EE96700B8A888 /* WYCForgetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6D61F9EE71F00B8A888 /* WYCForgetController.m */; };
+		328CD7DA1F9EE96700B8A888 /* ShowImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6DA1F9EE71F00B8A888 /* ShowImageViewController.m */; };
+		328CD7DB1F9EE96700B8A888 /* WYCAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6DF1F9EE71F00B8A888 /* WYCAccount.m */; };
+		328CD7DC1F9EE96700B8A888 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6E11F9EE71F00B8A888 /* UserInfo.m */; };
+		328CD7DD1F9EE96700B8A888 /* WYCAccountTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6E21F9EE71F00B8A888 /* WYCAccountTool.m */; };
+		328CD7DE1F9EE96700B8A888 /* WYCIsAppLoginTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6E31F9EE71F00B8A888 /* WYCIsAppLoginTool.m */; };
+		328CD7DF1F9EE96700B8A888 /* SaveShanhu.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6E41F9EE71F00B8A888 /* SaveShanhu.m */; };
+		328CD7E01F9EE96700B8A888 /* WYCCityModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6EA1F9EE71F00B8A888 /* WYCCityModel.m */; };
+		328CD7E11F9EE96700B8A888 /* WYCBillController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6EF1F9EE71F00B8A888 /* WYCBillController.m */; };
+		328CD7E21F9EE96700B8A888 /* WYCPCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6F01F9EE71F00B8A888 /* WYCPCardController.m */; };
+		328CD7E31F9EE96700B8A888 /* WYCMemineController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6F51F9EE71F00B8A888 /* WYCMemineController.m */; };
+		328CD7E41F9EE96700B8A888 /* WYCInformationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6F81F9EE71F00B8A888 /* WYCInformationController.m */; };
+		328CD7E51F9EE96700B8A888 /* WYCMymessegeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6F91F9EE71F00B8A888 /* WYCMymessegeController.m */; };
+		328CD7E61F9EE96700B8A888 /* WYCSetcardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6FC1F9EE71F00B8A888 /* WYCSetcardController.m */; };
+		328CD7E71F9EE96700B8A888 /* WYCSetUserController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6FD1F9EE71F00B8A888 /* WYCSetUserController.m */; };
+		328CD7E81F9EE96700B8A888 /* WYCSIDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6FE1F9EE71F00B8A888 /* WYCSIDController.m */; };
+		328CD7E91F9EE96700B8A888 /* WYCMSdetailedController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD6FF1F9EE71F00B8A888 /* WYCMSdetailedController.m */; };
+		328CD7EA1F9EE96700B8A888 /* WYCAddcardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7001F9EE71F00B8A888 /* WYCAddcardController.m */; };
+		328CD7EB1F9EE96700B8A888 /* WYCIDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7021F9EE71F00B8A888 /* WYCIDController.m */; };
+		328CD7EC1F9EE96700B8A888 /* WYCMessegeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7091F9EE71F00B8A888 /* WYCMessegeCell.m */; };
+		328CD7ED1F9EE96700B8A888 /* WYCSeeBillController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD70C1F9EE71F00B8A888 /* WYCSeeBillController.m */; };
+		328CD7EE1F9EE96700B8A888 /* WYCAddCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7101F9EE71F00B8A888 /* WYCAddCardController.m */; };
+		328CD7EF1F9EE96700B8A888 /* WYCRmtController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7111F9EE71F00B8A888 /* WYCRmtController.m */; };
+		328CD7F01F9EE96700B8A888 /* WYCTranslationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7131F9EE71F00B8A888 /* WYCTranslationController.m */; };
+		328CD7F11F9EE96700B8A888 /* WYCHistoryController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7151F9EE71F00B8A888 /* WYCHistoryController.m */; };
+		328CD7F21F9EE96700B8A888 /* WYCPlanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7161F9EE71F00B8A888 /* WYCPlanController.m */; };
+		328CD7F31F9EE96700B8A888 /* WYCDTViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD71C1F9EE71F00B8A888 /* WYCDTViewCell.m */; };
+		328CD7F41F9EE96700B8A888 /* WYCHeaderFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD71D1F9EE71F00B8A888 /* WYCHeaderFooterView.m */; };
+		328CD7F51F9EE96700B8A888 /* WYCRmtCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD71E1F9EE71F00B8A888 /* WYCRmtCell.m */; };
+		328CD7F61F9EE96700B8A888 /* UIButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7241F9EE71F00B8A888 /* UIButton+CountDown.m */; };
+		328CD7F71F9EE96700B8A888 /* XMGVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7251F9EE71F00B8A888 /* XMGVerticalButton.m */; };
+		328CD7F81F9EE96700B8A888 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7281F9EE71F00B8A888 /* NSString+Base64.m */; };
+		328CD7F91F9EE96700B8A888 /* PictureRotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD72C1F9EE71F00B8A888 /* PictureRotate.m */; };
+		328CD7FA1F9EE96700B8A888 /* WYCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD72D1F9EE71F00B8A888 /* WYCNavigationController.m */; };
+		328CD7FB1F9EE96700B8A888 /* UIView+XMGExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD72E1F9EE71F00B8A888 /* UIView+XMGExtension.m */; };
+		328CD7FC1F9EE96700B8A888 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD72F1F9EE71F00B8A888 /* Foundation+Log.m */; };
+		328CD7FD1F9EE96700B8A888 /* XMGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7301F9EE71F00B8A888 /* XMGTabBarController.m */; };
+		328CD7FE1F9EE96700B8A888 /* WYCConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7321F9EE71F00B8A888 /* WYCConst.m */; };
+		328CD7FF1F9EE96700B8A888 /* UIBarButtonItem+WYCExtesion.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7381F9EE71F00B8A888 /* UIBarButtonItem+WYCExtesion.m */; };
+		328CD8001F9EE96700B8A888 /* NSDate+WYCExtision.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7391F9EE71F00B8A888 /* NSDate+WYCExtision.m */; };
+		32B4A5CA1F9EF2100060F96F /* RSAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B4A5C51F9EF20F0060F96F /* RSAUtil.m */; };
+		32B4A5CB1F9EF2100060F96F /* WYCRSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 32B4A5C91F9EF20F0060F96F /* WYCRSAEncryptor.m */; };
+		32B4A5CC1F9EF2650060F96F /* WYCHomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7061F9EE71F00B8A888 /* WYCHomeCell.m */; };
+		32B4A5CD1F9EF2960060F96F /* WYCHideCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7B61F9EE71F00B8A888 /* WYCHideCardController.m */; };
+		32B4A5CE1F9EF2960060F96F /* WYCFmessgeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7B81F9EE71F00B8A888 /* WYCFmessgeController.m */; };
+		32B4A5CF1F9EF2960060F96F /* WYCAddMailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7BD1F9EE71F00B8A888 /* WYCAddMailController.m */; };
+		32B4A5D01F9EF2960060F96F /* WYCSetController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7C01F9EE71F00B8A888 /* WYCSetController.m */; };
+		32B4A5D11F9EF2960060F96F /* WYCPaymentController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7C21F9EE71F00B8A888 /* WYCPaymentController.m */; };
+		32B4A5D21F9EF2960060F96F /* WYCStrCardController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7C31F9EE71F00B8A888 /* WYCStrCardController.m */; };
+		32B4A5D31F9EF2960060F96F /* WYCAboutMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7C41F9EE71F00B8A888 /* WYCAboutMeController.m */; };
+		32B4A5D41F9EF2960060F96F /* WYCChoiceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7C51F9EE71F00B8A888 /* WYCChoiceController.m */; };
+		32B4A5D51F9EF2B40060F96F /* WYCInputController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7BC1F9EE71F00B8A888 /* WYCInputController.m */; };
+		32B4A5D61F9EF2B40060F96F /* WYCMeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7BE1F9EE71F00B8A888 /* WYCMeController.m */; };
+		32B4A5D71F9EF2B40060F96F /* WYCChoiceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7CA1F9EE71F00B8A888 /* WYCChoiceCell.m */; };
+		32B4A5D81F9EF2B40060F96F /* WYCStrCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7CB1F9EE71F00B8A888 /* WYCStrCardCell.m */; };
+		32B4A5D91F9EF2B40060F96F /* WYCAddMailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7CC1F9EE71F00B8A888 /* WYCAddMailCell.m */; };
+		32B4A5DA1F9EF2C70060F96F /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 328CD7AE1F9EE71F00B8A888 /* HttpTool.m */; };
+		8FAFE8E29AB1D1D5CEE39184 /* libPods-信用卡管理.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0BADB0F3465B1B4DF55FD45 /* libPods-信用卡管理.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		328CD6A71F9EE5B900B8A888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 328CD6861F9EE5B900B8A888 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 328CD68D1F9EE5B900B8A888;
+			remoteInfo = "信用卡管理";
+		};
+		328CD6B21F9EE5B900B8A888 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 328CD6861F9EE5B900B8A888 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 328CD68D1F9EE5B900B8A888;
+			remoteInfo = "信用卡管理";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0093B6BD6C6ABA74C3AC8650 /* Pods-信用卡管理.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-信用卡管理.release.xcconfig"; path = "Pods/Target Support Files/Pods-信用卡管理/Pods-信用卡管理.release.xcconfig"; sourceTree = "<group>"; };
+		1BED32871FA6D43C00C81357 /* WYCHttpRequestBaseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCHttpRequestBaseModel.h; sourceTree = "<group>"; };
+		1BED32881FA6D43C00C81357 /* WYCHttpRequestBaseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCHttpRequestBaseModel.m; sourceTree = "<group>"; };
+		1BED328A1FA708CE00C81357 /* AddressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressView.m; sourceTree = "<group>"; };
+		1BED328B1FA708CE00C81357 /* AddressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddressView.h; sourceTree = "<group>"; };
+		323735BC1F9F0A6B0099E70E /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		323BBC7A1FA03A4D0013A9EE /* WYCIDHoldController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCIDHoldController.h; sourceTree = "<group>"; };
+		323BBC7B1FA03A4D0013A9EE /* WYCIDHoldController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCIDHoldController.m; sourceTree = "<group>"; };
+		323BBC7D1FA03BFE0013A9EE /* WYCDebitCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCDebitCardController.h; sourceTree = "<group>"; };
+		323BBC7E1FA03BFE0013A9EE /* WYCDebitCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCDebitCardController.m; sourceTree = "<group>"; };
+		32607CA01FA2D18C00D817FE /* WYCPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCPickerView.h; sourceTree = "<group>"; };
+		32607CA11FA2D18C00D817FE /* WYCPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCPickerView.m; sourceTree = "<group>"; };
+		326881371FA1D7530097EFA5 /* WYCprovinceModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCprovinceModel.h; sourceTree = "<group>"; };
+		326881381FA1D7530097EFA5 /* WYCprovinceModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCprovinceModel.m; sourceTree = "<group>"; };
+		328CD68E1F9EE5B900B8A888 /* 信用卡管理.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "信用卡管理.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		328CD69A1F9EE5B900B8A888 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		328CD69F1F9EE5B900B8A888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		328CD6A01F9EE5B900B8A888 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		328CD6A61F9EE5B900B8A888 /* 信用卡管理Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "信用卡管理Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		328CD6AA1F9EE5B900B8A888 /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
+		328CD6AC1F9EE5B900B8A888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		328CD6B11F9EE5B900B8A888 /* 信用卡管理UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "信用卡管理UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		328CD6B51F9EE5B900B8A888 /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
+		328CD6B71F9EE5B900B8A888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		328CD6C61F9EE71F00B8A888 /* WYCAuthenticationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCAuthenticationController.h; sourceTree = "<group>"; };
+		328CD6C71F9EE71F00B8A888 /* WYCPhotographController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCPhotographController.m; sourceTree = "<group>"; };
+		328CD6C81F9EE71F00B8A888 /* WYCBindingIDSideController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCBindingIDSideController.m; sourceTree = "<group>"; };
+		328CD6C91F9EE71F00B8A888 /* WYCRigsterController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCRigsterController.m; sourceTree = "<group>"; };
+		328CD6CA1F9EE71F00B8A888 /* WYCCityController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCCityController.m; sourceTree = "<group>"; };
+		328CD6CB1F9EE71F00B8A888 /* WYCBankCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCBankCardController.m; sourceTree = "<group>"; };
+		328CD6CC1F9EE71F00B8A888 /* WYCForgetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCForgetController.h; sourceTree = "<group>"; };
+		328CD6CD1F9EE71F00B8A888 /* WYCBindingIDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCBindingIDController.m; sourceTree = "<group>"; };
+		328CD6CE1F9EE71F00B8A888 /* WYCModifyController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCModifyController.m; sourceTree = "<group>"; };
+		328CD6CF1F9EE71F00B8A888 /* ShowImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowImageViewController.h; sourceTree = "<group>"; };
+		328CD6D01F9EE71F00B8A888 /* WYCLoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCLoginController.m; sourceTree = "<group>"; };
+		328CD6D11F9EE71F00B8A888 /* WYCAuthenticationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCAuthenticationController.m; sourceTree = "<group>"; };
+		328CD6D21F9EE71F00B8A888 /* WYCRigsterController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCRigsterController.h; sourceTree = "<group>"; };
+		328CD6D31F9EE71F00B8A888 /* WYCBindingIDSideController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCBindingIDSideController.h; sourceTree = "<group>"; };
+		328CD6D41F9EE71F00B8A888 /* WYCPhotographController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCPhotographController.h; sourceTree = "<group>"; };
+		328CD6D51F9EE71F00B8A888 /* WYCBindingIDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCBindingIDController.h; sourceTree = "<group>"; };
+		328CD6D61F9EE71F00B8A888 /* WYCForgetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCForgetController.m; sourceTree = "<group>"; };
+		328CD6D71F9EE71F00B8A888 /* WYCBankCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCBankCardController.h; sourceTree = "<group>"; };
+		328CD6D81F9EE71F00B8A888 /* WYCCityController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCCityController.h; sourceTree = "<group>"; };
+		328CD6D91F9EE71F00B8A888 /* WYCLoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCLoginController.h; sourceTree = "<group>"; };
+		328CD6DA1F9EE71F00B8A888 /* ShowImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowImageViewController.m; sourceTree = "<group>"; };
+		328CD6DB1F9EE71F00B8A888 /* WYCModifyController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCModifyController.h; sourceTree = "<group>"; };
+		328CD6DD1F9EE71F00B8A888 /* SaveShanhu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SaveShanhu.h; sourceTree = "<group>"; };
+		328CD6DE1F9EE71F00B8A888 /* WYCIsAppLoginTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCIsAppLoginTool.h; sourceTree = "<group>"; };
+		328CD6DF1F9EE71F00B8A888 /* WYCAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCAccount.m; sourceTree = "<group>"; };
+		328CD6E01F9EE71F00B8A888 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		328CD6E11F9EE71F00B8A888 /* UserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserInfo.m; sourceTree = "<group>"; };
+		328CD6E21F9EE71F00B8A888 /* WYCAccountTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCAccountTool.m; sourceTree = "<group>"; };
+		328CD6E31F9EE71F00B8A888 /* WYCIsAppLoginTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCIsAppLoginTool.m; sourceTree = "<group>"; };
+		328CD6E41F9EE71F00B8A888 /* SaveShanhu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SaveShanhu.m; sourceTree = "<group>"; };
+		328CD6E51F9EE71F00B8A888 /* WYCAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCAccount.h; sourceTree = "<group>"; };
+		328CD6E61F9EE71F00B8A888 /* WYCAccountTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCAccountTool.h; sourceTree = "<group>"; };
+		328CD6E71F9EE71F00B8A888 /* UserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserInfo.h; sourceTree = "<group>"; };
+		328CD6E91F9EE71F00B8A888 /* WYCCityModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCCityModel.h; sourceTree = "<group>"; };
+		328CD6EA1F9EE71F00B8A888 /* WYCCityModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCCityModel.m; sourceTree = "<group>"; };
+		328CD6EE1F9EE71F00B8A888 /* WYCSetcardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCSetcardController.h; sourceTree = "<group>"; };
+		328CD6EF1F9EE71F00B8A888 /* WYCBillController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCBillController.m; sourceTree = "<group>"; };
+		328CD6F01F9EE71F00B8A888 /* WYCPCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCPCardController.m; sourceTree = "<group>"; };
+		328CD6F11F9EE71F00B8A888 /* WYCMymessegeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCMymessegeController.h; sourceTree = "<group>"; };
+		328CD6F21F9EE71F00B8A888 /* WYCSIDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCSIDController.h; sourceTree = "<group>"; };
+		328CD6F31F9EE71F00B8A888 /* WYCSetUserController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCSetUserController.h; sourceTree = "<group>"; };
+		328CD6F41F9EE71F00B8A888 /* WYCIDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCIDController.h; sourceTree = "<group>"; };
+		328CD6F51F9EE71F00B8A888 /* WYCMemineController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCMemineController.m; sourceTree = "<group>"; };
+		328CD6F61F9EE71F00B8A888 /* WYCAddcardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCAddcardController.h; sourceTree = "<group>"; };
+		328CD6F71F9EE71F00B8A888 /* WYCMSdetailedController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCMSdetailedController.h; sourceTree = "<group>"; };
+		328CD6F81F9EE71F00B8A888 /* WYCInformationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCInformationController.m; sourceTree = "<group>"; };
+		328CD6F91F9EE71F00B8A888 /* WYCMymessegeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCMymessegeController.m; sourceTree = "<group>"; };
+		328CD6FA1F9EE71F00B8A888 /* WYCPCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCPCardController.h; sourceTree = "<group>"; };
+		328CD6FB1F9EE71F00B8A888 /* WYCBillController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCBillController.h; sourceTree = "<group>"; };
+		328CD6FC1F9EE71F00B8A888 /* WYCSetcardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCSetcardController.m; sourceTree = "<group>"; };
+		328CD6FD1F9EE71F00B8A888 /* WYCSetUserController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCSetUserController.m; sourceTree = "<group>"; };
+		328CD6FE1F9EE71F00B8A888 /* WYCSIDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCSIDController.m; sourceTree = "<group>"; };
+		328CD6FF1F9EE71F00B8A888 /* WYCMSdetailedController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCMSdetailedController.m; sourceTree = "<group>"; };
+		328CD7001F9EE71F00B8A888 /* WYCAddcardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCAddcardController.m; sourceTree = "<group>"; };
+		328CD7011F9EE71F00B8A888 /* WYCMemineController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCMemineController.h; sourceTree = "<group>"; };
+		328CD7021F9EE71F00B8A888 /* WYCIDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCIDController.m; sourceTree = "<group>"; };
+		328CD7031F9EE71F00B8A888 /* WYCInformationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCInformationController.h; sourceTree = "<group>"; };
+		328CD7061F9EE71F00B8A888 /* WYCHomeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCHomeCell.m; sourceTree = "<group>"; };
+		328CD7071F9EE71F00B8A888 /* WYCMessegeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCMessegeCell.h; sourceTree = "<group>"; };
+		328CD7081F9EE71F00B8A888 /* WYCHomeCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCHomeCell.h; sourceTree = "<group>"; };
+		328CD7091F9EE71F00B8A888 /* WYCMessegeCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCMessegeCell.m; sourceTree = "<group>"; };
+		328CD70C1F9EE71F00B8A888 /* WYCSeeBillController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCSeeBillController.m; sourceTree = "<group>"; };
+		328CD70D1F9EE71F00B8A888 /* WYCRmtController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCRmtController.h; sourceTree = "<group>"; };
+		328CD70E1F9EE71F00B8A888 /* WYCAddCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCAddCardController.h; sourceTree = "<group>"; };
+		328CD70F1F9EE71F00B8A888 /* WYCSeeBillController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCSeeBillController.h; sourceTree = "<group>"; };
+		328CD7101F9EE71F00B8A888 /* WYCAddCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCAddCardController.m; sourceTree = "<group>"; };
+		328CD7111F9EE71F00B8A888 /* WYCRmtController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCRmtController.m; sourceTree = "<group>"; };
+		328CD7131F9EE71F00B8A888 /* WYCTranslationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCTranslationController.m; sourceTree = "<group>"; };
+		328CD7141F9EE71F00B8A888 /* WYCPlanController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCPlanController.h; sourceTree = "<group>"; };
+		328CD7151F9EE71F00B8A888 /* WYCHistoryController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCHistoryController.m; sourceTree = "<group>"; };
+		328CD7161F9EE71F00B8A888 /* WYCPlanController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCPlanController.m; sourceTree = "<group>"; };
+		328CD7171F9EE71F00B8A888 /* WYCTranslationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCTranslationController.h; sourceTree = "<group>"; };
+		328CD7181F9EE71F00B8A888 /* WYCHistoryController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCHistoryController.h; sourceTree = "<group>"; };
+		328CD71B1F9EE71F00B8A888 /* WYCRmtCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCRmtCell.h; sourceTree = "<group>"; };
+		328CD71C1F9EE71F00B8A888 /* WYCDTViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCDTViewCell.m; sourceTree = "<group>"; };
+		328CD71D1F9EE71F00B8A888 /* WYCHeaderFooterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCHeaderFooterView.m; sourceTree = "<group>"; };
+		328CD71E1F9EE71F00B8A888 /* WYCRmtCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCRmtCell.m; sourceTree = "<group>"; };
+		328CD71F1F9EE71F00B8A888 /* WYCDTViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCDTViewCell.h; sourceTree = "<group>"; };
+		328CD7201F9EE71F00B8A888 /* WYCHeaderFooterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCHeaderFooterView.h; sourceTree = "<group>"; };
+		328CD7231F9EE71F00B8A888 /* UIView+XMGExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+XMGExtension.h"; sourceTree = "<group>"; };
+		328CD7241F9EE71F00B8A888 /* UIButton+CountDown.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDown.m"; sourceTree = "<group>"; };
+		328CD7251F9EE71F00B8A888 /* XMGVerticalButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGVerticalButton.m; sourceTree = "<group>"; };
+		328CD7261F9EE71F00B8A888 /* WYCConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCConst.h; sourceTree = "<group>"; };
+		328CD7271F9EE71F00B8A888 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		328CD7281F9EE71F00B8A888 /* NSString+Base64.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		328CD7291F9EE71F00B8A888 /* XMGTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGTabBarController.h; sourceTree = "<group>"; };
+		328CD72A1F9EE71F00B8A888 /* NSDate+WYCExtision.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDate+WYCExtision.h"; sourceTree = "<group>"; };
+		328CD72B1F9EE71F00B8A888 /* UIBarButtonItem+WYCExtesion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+WYCExtesion.h"; sourceTree = "<group>"; };
+		328CD72C1F9EE71F00B8A888 /* PictureRotate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PictureRotate.m; sourceTree = "<group>"; };
+		328CD72D1F9EE71F00B8A888 /* WYCNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCNavigationController.m; sourceTree = "<group>"; };
+		328CD72E1F9EE71F00B8A888 /* UIView+XMGExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+XMGExtension.m"; sourceTree = "<group>"; };
+		328CD72F1F9EE71F00B8A888 /* Foundation+Log.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		328CD7301F9EE71F00B8A888 /* XMGTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XMGTabBarController.m; sourceTree = "<group>"; };
+		328CD7311F9EE71F00B8A888 /* NSString+Base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		328CD7321F9EE71F00B8A888 /* WYCConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCConst.m; sourceTree = "<group>"; };
+		328CD7331F9EE71F00B8A888 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		328CD7341F9EE71F00B8A888 /* UIButton+CountDown.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDown.h"; sourceTree = "<group>"; };
+		328CD7351F9EE71F00B8A888 /* XMGVerticalButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XMGVerticalButton.h; sourceTree = "<group>"; };
+		328CD7361F9EE71F00B8A888 /* WYCNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCNavigationController.h; sourceTree = "<group>"; };
+		328CD7371F9EE71F00B8A888 /* PictureRotate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PictureRotate.h; sourceTree = "<group>"; };
+		328CD7381F9EE71F00B8A888 /* UIBarButtonItem+WYCExtesion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+WYCExtesion.m"; sourceTree = "<group>"; };
+		328CD7391F9EE71F00B8A888 /* NSDate+WYCExtision.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDate+WYCExtision.m"; sourceTree = "<group>"; };
+		328CD73A1F9EE71F00B8A888 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		328CD7871F9EE71F00B8A888 /* HttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		328CD7AE1F9EE71F00B8A888 /* HttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		328CD7B21F9EE71F00B8A888 /* WYCAddMailController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCAddMailController.h; sourceTree = "<group>"; };
+		328CD7B31F9EE71F00B8A888 /* WYCInputController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCInputController.h; sourceTree = "<group>"; };
+		328CD7B41F9EE71F00B8A888 /* WYCStrCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCStrCardController.h; sourceTree = "<group>"; };
+		328CD7B51F9EE71F00B8A888 /* WYCPaymentController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCPaymentController.h; sourceTree = "<group>"; };
+		328CD7B61F9EE71F00B8A888 /* WYCHideCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCHideCardController.m; sourceTree = "<group>"; };
+		328CD7B71F9EE71F00B8A888 /* WYCSetController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCSetController.h; sourceTree = "<group>"; };
+		328CD7B81F9EE71F00B8A888 /* WYCFmessgeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCFmessgeController.m; sourceTree = "<group>"; };
+		328CD7B91F9EE71F00B8A888 /* WYCMeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCMeController.h; sourceTree = "<group>"; };
+		328CD7BA1F9EE71F00B8A888 /* WYCAboutMeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCAboutMeController.h; sourceTree = "<group>"; };
+		328CD7BB1F9EE71F00B8A888 /* WYCChoiceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCChoiceController.h; sourceTree = "<group>"; };
+		328CD7BC1F9EE71F00B8A888 /* WYCInputController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCInputController.m; sourceTree = "<group>"; };
+		328CD7BD1F9EE71F00B8A888 /* WYCAddMailController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCAddMailController.m; sourceTree = "<group>"; };
+		328CD7BE1F9EE71F00B8A888 /* WYCMeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCMeController.m; sourceTree = "<group>"; };
+		328CD7BF1F9EE71F00B8A888 /* WYCFmessgeController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCFmessgeController.h; sourceTree = "<group>"; };
+		328CD7C01F9EE71F00B8A888 /* WYCSetController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCSetController.m; sourceTree = "<group>"; };
+		328CD7C11F9EE71F00B8A888 /* WYCHideCardController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCHideCardController.h; sourceTree = "<group>"; };
+		328CD7C21F9EE71F00B8A888 /* WYCPaymentController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCPaymentController.m; sourceTree = "<group>"; };
+		328CD7C31F9EE71F00B8A888 /* WYCStrCardController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCStrCardController.m; sourceTree = "<group>"; };
+		328CD7C41F9EE71F00B8A888 /* WYCAboutMeController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCAboutMeController.m; sourceTree = "<group>"; };
+		328CD7C51F9EE71F00B8A888 /* WYCChoiceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCChoiceController.m; sourceTree = "<group>"; };
+		328CD7C81F9EE71F00B8A888 /* WYCAddMailCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCAddMailCell.h; sourceTree = "<group>"; };
+		328CD7C91F9EE71F00B8A888 /* WYCStrCardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCStrCardCell.h; sourceTree = "<group>"; };
+		328CD7CA1F9EE71F00B8A888 /* WYCChoiceCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCChoiceCell.m; sourceTree = "<group>"; };
+		328CD7CB1F9EE71F00B8A888 /* WYCStrCardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCStrCardCell.m; sourceTree = "<group>"; };
+		328CD7CC1F9EE71F00B8A888 /* WYCAddMailCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCAddMailCell.m; sourceTree = "<group>"; };
+		328CD7CD1F9EE71F00B8A888 /* WYCChoiceCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCChoiceCell.h; sourceTree = "<group>"; };
+		32B4A5C41F9EF20E0060F96F /* private_key.p12 */ = {isa = PBXFileReference; lastKnownFileType = file; path = private_key.p12; sourceTree = "<group>"; };
+		32B4A5C51F9EF20F0060F96F /* RSAUtil.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSAUtil.m; sourceTree = "<group>"; };
+		32B4A5C61F9EF20F0060F96F /* WYCRSAEncryptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WYCRSAEncryptor.h; sourceTree = "<group>"; };
+		32B4A5C71F9EF20F0060F96F /* RSAUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSAUtil.h; sourceTree = "<group>"; };
+		32B4A5C81F9EF20F0060F96F /* public_key.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = public_key.der; sourceTree = "<group>"; };
+		32B4A5C91F9EF20F0060F96F /* WYCRSAEncryptor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYCRSAEncryptor.m; sourceTree = "<group>"; };
+		650C59B55EE6DB2B7EA69330 /* Pods-信用卡管理.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-信用卡管理.debug.xcconfig"; path = "Pods/Target Support Files/Pods-信用卡管理/Pods-信用卡管理.debug.xcconfig"; sourceTree = "<group>"; };
+		B0BADB0F3465B1B4DF55FD45 /* libPods-信用卡管理.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-信用卡管理.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		328CD68B1F9EE5B900B8A888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAFE8E29AB1D1D5CEE39184 /* libPods-信用卡管理.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328CD6A31F9EE5B900B8A888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328CD6AE1F9EE5B900B8A888 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C815BA9C155EB1E69E6F534 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				650C59B55EE6DB2B7EA69330 /* Pods-信用卡管理.debug.xcconfig */,
+				0093B6BD6C6ABA74C3AC8650 /* Pods-信用卡管理.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1EF0AE8207CFEA0E0BBF30CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0BADB0F3465B1B4DF55FD45 /* libPods-信用卡管理.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		328CD6851F9EE5B900B8A888 = {
+			isa = PBXGroup;
+			children = (
+				328CD6901F9EE5B900B8A888 /* 信用卡管理 */,
+				328CD6A91F9EE5B900B8A888 /* 信用卡管理Tests */,
+				328CD6B41F9EE5B900B8A888 /* 信用卡管理UITests */,
+				328CD68F1F9EE5B900B8A888 /* Products */,
+				0C815BA9C155EB1E69E6F534 /* Pods */,
+				1EF0AE8207CFEA0E0BBF30CB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		328CD68F1F9EE5B900B8A888 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				328CD68E1F9EE5B900B8A888 /* 信用卡管理.app */,
+				328CD6A61F9EE5B900B8A888 /* 信用卡管理Tests.xctest */,
+				328CD6B11F9EE5B900B8A888 /* 信用卡管理UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		328CD6901F9EE5B900B8A888 /* 信用卡管理 */ = {
+			isa = PBXGroup;
+			children = (
+				323735BC1F9F0A6B0099E70E /* Podfile */,
+				32B4A5C81F9EF20F0060F96F /* public_key.der */,
+				32B4A5C41F9EF20E0060F96F /* private_key.p12 */,
+				32B4A5C71F9EF20F0060F96F /* RSAUtil.h */,
+				32B4A5C51F9EF20F0060F96F /* RSAUtil.m */,
+				32B4A5C61F9EF20F0060F96F /* WYCRSAEncryptor.h */,
+				32B4A5C91F9EF20F0060F96F /* WYCRSAEncryptor.m */,
+				328CD6A01F9EE5B900B8A888 /* main.m */,
+				328CD69F1F9EE5B900B8A888 /* Info.plist */,
+				328CD69A1F9EE5B900B8A888 /* Assets.xcassets */,
+				328CD6C31F9EE71F00B8A888 /* Class */,
+			);
+			path = "信用卡管理";
+			sourceTree = "<group>";
+		};
+		328CD6A91F9EE5B900B8A888 /* 信用卡管理Tests */ = {
+			isa = PBXGroup;
+			children = (
+				328CD6AA1F9EE5B900B8A888 /* _____Tests.m */,
+				328CD6AC1F9EE5B900B8A888 /* Info.plist */,
+			);
+			path = "信用卡管理Tests";
+			sourceTree = "<group>";
+		};
+		328CD6B41F9EE5B900B8A888 /* 信用卡管理UITests */ = {
+			isa = PBXGroup;
+			children = (
+				328CD6B51F9EE5B900B8A888 /* _____UITests.m */,
+				328CD6B71F9EE5B900B8A888 /* Info.plist */,
+			);
+			path = "信用卡管理UITests";
+			sourceTree = "<group>";
+		};
+		328CD6C31F9EE71F00B8A888 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				328CD6EC1F9EE71F00B8A888 /* Home(账单) */,
+				328CD70A1F9EE71F00B8A888 /* Group(还款) */,
+				328CD7B01F9EE71F00B8A888 /* Me(我) */,
+				328CD7211F9EE71F00B8A888 /* Other */,
+				328CD6C41F9EE71F00B8A888 /* Login+register */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		328CD6C41F9EE71F00B8A888 /* Login+register */ = {
+			isa = PBXGroup;
+			children = (
+				328CD6C51F9EE71F00B8A888 /* Controller */,
+				328CD6DC1F9EE71F00B8A888 /* 单利 */,
+				328CD6E81F9EE71F00B8A888 /* Model */,
+				328CD6EB1F9EE71F00B8A888 /* View */,
+			);
+			path = "Login+register";
+			sourceTree = "<group>";
+		};
+		328CD6C51F9EE71F00B8A888 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				328CD6CF1F9EE71F00B8A888 /* ShowImageViewController.h */,
+				328CD6DA1F9EE71F00B8A888 /* ShowImageViewController.m */,
+				328CD6C61F9EE71F00B8A888 /* WYCAuthenticationController.h */,
+				328CD6D11F9EE71F00B8A888 /* WYCAuthenticationController.m */,
+				328CD6D71F9EE71F00B8A888 /* WYCBankCardController.h */,
+				328CD6CB1F9EE71F00B8A888 /* WYCBankCardController.m */,
+				328CD6D51F9EE71F00B8A888 /* WYCBindingIDController.h */,
+				328CD6CD1F9EE71F00B8A888 /* WYCBindingIDController.m */,
+				328CD6D31F9EE71F00B8A888 /* WYCBindingIDSideController.h */,
+				328CD6C81F9EE71F00B8A888 /* WYCBindingIDSideController.m */,
+				328CD6D81F9EE71F00B8A888 /* WYCCityController.h */,
+				328CD6CA1F9EE71F00B8A888 /* WYCCityController.m */,
+				328CD6CC1F9EE71F00B8A888 /* WYCForgetController.h */,
+				328CD6D61F9EE71F00B8A888 /* WYCForgetController.m */,
+				328CD6D91F9EE71F00B8A888 /* WYCLoginController.h */,
+				328CD6D01F9EE71F00B8A888 /* WYCLoginController.m */,
+				328CD6DB1F9EE71F00B8A888 /* WYCModifyController.h */,
+				328CD6CE1F9EE71F00B8A888 /* WYCModifyController.m */,
+				328CD6D41F9EE71F00B8A888 /* WYCPhotographController.h */,
+				328CD6C71F9EE71F00B8A888 /* WYCPhotographController.m */,
+				328CD6D21F9EE71F00B8A888 /* WYCRigsterController.h */,
+				328CD6C91F9EE71F00B8A888 /* WYCRigsterController.m */,
+				323BBC7A1FA03A4D0013A9EE /* WYCIDHoldController.h */,
+				323BBC7B1FA03A4D0013A9EE /* WYCIDHoldController.m */,
+				323BBC7D1FA03BFE0013A9EE /* WYCDebitCardController.h */,
+				323BBC7E1FA03BFE0013A9EE /* WYCDebitCardController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		328CD6DC1F9EE71F00B8A888 /* 单利 */ = {
+			isa = PBXGroup;
+			children = (
+				328CD6DD1F9EE71F00B8A888 /* SaveShanhu.h */,
+				328CD6E41F9EE71F00B8A888 /* SaveShanhu.m */,
+				328CD6E01F9EE71F00B8A888 /* Singleton.h */,
+				328CD6E71F9EE71F00B8A888 /* UserInfo.h */,
+				328CD6E11F9EE71F00B8A888 /* UserInfo.m */,
+				328CD6E51F9EE71F00B8A888 /* WYCAccount.h */,
+				328CD6DF1F9EE71F00B8A888 /* WYCAccount.m */,
+				328CD6E61F9EE71F00B8A888 /* WYCAccountTool.h */,
+				328CD6E21F9EE71F00B8A888 /* WYCAccountTool.m */,
+				328CD6DE1F9EE71F00B8A888 /* WYCIsAppLoginTool.h */,
+				328CD6E31F9EE71F00B8A888 /* WYCIsAppLoginTool.m */,
+			);
+			path = "单利";
+			sourceTree = "<group>";
+		};
+		328CD6E81F9EE71F00B8A888 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				328CD6E91F9EE71F00B8A888 /* WYCCityModel.h */,
+				328CD6EA1F9EE71F00B8A888 /* WYCCityModel.m */,
+				326881371FA1D7530097EFA5 /* WYCprovinceModel.h */,
+				326881381FA1D7530097EFA5 /* WYCprovinceModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		328CD6EB1F9EE71F00B8A888 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1BED328B1FA708CE00C81357 /* AddressView.h */,
+				1BED328A1FA708CE00C81357 /* AddressView.m */,
+				32607CA01FA2D18C00D817FE /* WYCPickerView.h */,
+				32607CA11FA2D18C00D817FE /* WYCPickerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		328CD6EC1F9EE71F00B8A888 /* Home(账单) */ = {
+			isa = PBXGroup;
+			children = (
+				328CD6ED1F9EE71F00B8A888 /* Controller */,
+				328CD7041F9EE71F00B8A888 /* Model */,
+				328CD7051F9EE71F00B8A888 /* View */,
+			);
+			path = "Home(账单)";
+			sourceTree = "<group>";
+		};
+		328CD6ED1F9EE71F00B8A888 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				328CD6F61F9EE71F00B8A888 /* WYCAddcardController.h */,
+				328CD7001F9EE71F00B8A888 /* WYCAddcardController.m */,
+				328CD6FB1F9EE71F00B8A888 /* WYCBillController.h */,
+				328CD6EF1F9EE71F00B8A888 /* WYCBillController.m */,
+				328CD6F41F9EE71F00B8A888 /* WYCIDController.h */,
+				328CD7021F9EE71F00B8A888 /* WYCIDController.m */,
+				328CD7031F9EE71F00B8A888 /* WYCInformationController.h */,
+				328CD6F81F9EE71F00B8A888 /* WYCInformationController.m */,
+				328CD7011F9EE71F00B8A888 /* WYCMemineController.h */,
+				328CD6F51F9EE71F00B8A888 /* WYCMemineController.m */,
+				328CD6F71F9EE71F00B8A888 /* WYCMSdetailedController.h */,
+				328CD6FF1F9EE71F00B8A888 /* WYCMSdetailedController.m */,
+				328CD6F11F9EE71F00B8A888 /* WYCMymessegeController.h */,
+				328CD6F91F9EE71F00B8A888 /* WYCMymessegeController.m */,
+				328CD6FA1F9EE71F00B8A888 /* WYCPCardController.h */,
+				328CD6F01F9EE71F00B8A888 /* WYCPCardController.m */,
+				328CD6EE1F9EE71F00B8A888 /* WYCSetcardController.h */,
+				328CD6FC1F9EE71F00B8A888 /* WYCSetcardController.m */,
+				328CD6F31F9EE71F00B8A888 /* WYCSetUserController.h */,
+				328CD6FD1F9EE71F00B8A888 /* WYCSetUserController.m */,
+				328CD6F21F9EE71F00B8A888 /* WYCSIDController.h */,
+				328CD6FE1F9EE71F00B8A888 /* WYCSIDController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		328CD7041F9EE71F00B8A888 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		328CD7051F9EE71F00B8A888 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				328CD7081F9EE71F00B8A888 /* WYCHomeCell.h */,
+				328CD7061F9EE71F00B8A888 /* WYCHomeCell.m */,
+				328CD7071F9EE71F00B8A888 /* WYCMessegeCell.h */,
+				328CD7091F9EE71F00B8A888 /* WYCMessegeCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		328CD70A1F9EE71F00B8A888 /* Group(还款) */ = {
+			isa = PBXGroup;
+			children = (
+				328CD70B1F9EE71F00B8A888 /* Controller */,
+				328CD7121F9EE71F00B8A888 /* 子控制器 */,
+				328CD7191F9EE71F00B8A888 /* Model */,
+				328CD71A1F9EE71F00B8A888 /* View */,
+			);
+			path = "Group(还款)";
+			sourceTree = "<group>";
+		};
+		328CD70B1F9EE71F00B8A888 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				328CD70E1F9EE71F00B8A888 /* WYCAddCardController.h */,
+				328CD7101F9EE71F00B8A888 /* WYCAddCardController.m */,
+				328CD70D1F9EE71F00B8A888 /* WYCRmtController.h */,
+				328CD7111F9EE71F00B8A888 /* WYCRmtController.m */,
+				328CD70F1F9EE71F00B8A888 /* WYCSeeBillController.h */,
+				328CD70C1F9EE71F00B8A888 /* WYCSeeBillController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		328CD7121F9EE71F00B8A888 /* 子控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				328CD7181F9EE71F00B8A888 /* WYCHistoryController.h */,
+				328CD7151F9EE71F00B8A888 /* WYCHistoryController.m */,
+				328CD7141F9EE71F00B8A888 /* WYCPlanController.h */,
+				328CD7161F9EE71F00B8A888 /* WYCPlanController.m */,
+				328CD7171F9EE71F00B8A888 /* WYCTranslationController.h */,
+				328CD7131F9EE71F00B8A888 /* WYCTranslationController.m */,
+			);
+			path = "子控制器";
+			sourceTree = "<group>";
+		};
+		328CD7191F9EE71F00B8A888 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		328CD71A1F9EE71F00B8A888 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				328CD71F1F9EE71F00B8A888 /* WYCDTViewCell.h */,
+				328CD71C1F9EE71F00B8A888 /* WYCDTViewCell.m */,
+				328CD7201F9EE71F00B8A888 /* WYCHeaderFooterView.h */,
+				328CD71D1F9EE71F00B8A888 /* WYCHeaderFooterView.m */,
+				328CD71B1F9EE71F00B8A888 /* WYCRmtCell.h */,
+				328CD71E1F9EE71F00B8A888 /* WYCRmtCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		328CD7211F9EE71F00B8A888 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				328CD7221F9EE71F00B8A888 /* Category */,
+				328CD73B1F9EE71F00B8A888 /* Libs */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		328CD7221F9EE71F00B8A888 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				328CD7271F9EE71F00B8A888 /* AppDelegate.h */,
+				328CD7331F9EE71F00B8A888 /* AppDelegate.m */,
+				328CD72F1F9EE71F00B8A888 /* Foundation+Log.m */,
+				328CD72A1F9EE71F00B8A888 /* NSDate+WYCExtision.h */,
+				328CD7391F9EE71F00B8A888 /* NSDate+WYCExtision.m */,
+				328CD7311F9EE71F00B8A888 /* NSString+Base64.h */,
+				328CD7281F9EE71F00B8A888 /* NSString+Base64.m */,
+				328CD7371F9EE71F00B8A888 /* PictureRotate.h */,
+				328CD72C1F9EE71F00B8A888 /* PictureRotate.m */,
+				328CD73A1F9EE71F00B8A888 /* PrefixHeader.pch */,
+				328CD72B1F9EE71F00B8A888 /* UIBarButtonItem+WYCExtesion.h */,
+				328CD7381F9EE71F00B8A888 /* UIBarButtonItem+WYCExtesion.m */,
+				328CD7341F9EE71F00B8A888 /* UIButton+CountDown.h */,
+				328CD7241F9EE71F00B8A888 /* UIButton+CountDown.m */,
+				328CD7231F9EE71F00B8A888 /* UIView+XMGExtension.h */,
+				328CD72E1F9EE71F00B8A888 /* UIView+XMGExtension.m */,
+				328CD7261F9EE71F00B8A888 /* WYCConst.h */,
+				328CD7321F9EE71F00B8A888 /* WYCConst.m */,
+				328CD7361F9EE71F00B8A888 /* WYCNavigationController.h */,
+				328CD72D1F9EE71F00B8A888 /* WYCNavigationController.m */,
+				328CD7291F9EE71F00B8A888 /* XMGTabBarController.h */,
+				328CD7301F9EE71F00B8A888 /* XMGTabBarController.m */,
+				328CD7351F9EE71F00B8A888 /* XMGVerticalButton.h */,
+				328CD7251F9EE71F00B8A888 /* XMGVerticalButton.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		328CD73B1F9EE71F00B8A888 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				328CD7861F9EE71F00B8A888 /* AFNetworking */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		328CD7861F9EE71F00B8A888 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				328CD7871F9EE71F00B8A888 /* HttpTool.h */,
+				328CD7AE1F9EE71F00B8A888 /* HttpTool.m */,
+				1BED32871FA6D43C00C81357 /* WYCHttpRequestBaseModel.h */,
+				1BED32881FA6D43C00C81357 /* WYCHttpRequestBaseModel.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		328CD7B01F9EE71F00B8A888 /* Me(我) */ = {
+			isa = PBXGroup;
+			children = (
+				328CD7B11F9EE71F00B8A888 /* Controller */,
+				328CD7C61F9EE71F00B8A888 /* Model */,
+				328CD7C71F9EE71F00B8A888 /* View */,
+			);
+			path = "Me(我)";
+			sourceTree = "<group>";
+		};
+		328CD7B11F9EE71F00B8A888 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				328CD7BA1F9EE71F00B8A888 /* WYCAboutMeController.h */,
+				328CD7C41F9EE71F00B8A888 /* WYCAboutMeController.m */,
+				328CD7B21F9EE71F00B8A888 /* WYCAddMailController.h */,
+				328CD7BD1F9EE71F00B8A888 /* WYCAddMailController.m */,
+				328CD7BB1F9EE71F00B8A888 /* WYCChoiceController.h */,
+				328CD7C51F9EE71F00B8A888 /* WYCChoiceController.m */,
+				328CD7BF1F9EE71F00B8A888 /* WYCFmessgeController.h */,
+				328CD7B81F9EE71F00B8A888 /* WYCFmessgeController.m */,
+				328CD7C11F9EE71F00B8A888 /* WYCHideCardController.h */,
+				328CD7B61F9EE71F00B8A888 /* WYCHideCardController.m */,
+				328CD7B31F9EE71F00B8A888 /* WYCInputController.h */,
+				328CD7BC1F9EE71F00B8A888 /* WYCInputController.m */,
+				328CD7B91F9EE71F00B8A888 /* WYCMeController.h */,
+				328CD7BE1F9EE71F00B8A888 /* WYCMeController.m */,
+				328CD7B51F9EE71F00B8A888 /* WYCPaymentController.h */,
+				328CD7C21F9EE71F00B8A888 /* WYCPaymentController.m */,
+				328CD7B71F9EE71F00B8A888 /* WYCSetController.h */,
+				328CD7C01F9EE71F00B8A888 /* WYCSetController.m */,
+				328CD7B41F9EE71F00B8A888 /* WYCStrCardController.h */,
+				328CD7C31F9EE71F00B8A888 /* WYCStrCardController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		328CD7C61F9EE71F00B8A888 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		328CD7C71F9EE71F00B8A888 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				328CD7C81F9EE71F00B8A888 /* WYCAddMailCell.h */,
+				328CD7C91F9EE71F00B8A888 /* WYCStrCardCell.h */,
+				328CD7CA1F9EE71F00B8A888 /* WYCChoiceCell.m */,
+				328CD7CB1F9EE71F00B8A888 /* WYCStrCardCell.m */,
+				328CD7CC1F9EE71F00B8A888 /* WYCAddMailCell.m */,
+				328CD7CD1F9EE71F00B8A888 /* WYCChoiceCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		328CD68D1F9EE5B900B8A888 /* 信用卡管理 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 328CD6BA1F9EE5B900B8A888 /* Build configuration list for PBXNativeTarget "信用卡管理" */;
+			buildPhases = (
+				0BCD49706FEDB663645302E3 /* [CP] Check Pods Manifest.lock */,
+				328CD68A1F9EE5B900B8A888 /* Sources */,
+				328CD68B1F9EE5B900B8A888 /* Frameworks */,
+				328CD68C1F9EE5B900B8A888 /* Resources */,
+				B3583856483D4C1D93B412A5 /* [CP] Embed Pods Frameworks */,
+				55009284384D45CD3A190D89 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "信用卡管理";
+			productName = "信用卡管理";
+			productReference = 328CD68E1F9EE5B900B8A888 /* 信用卡管理.app */;
+			productType = "com.apple.product-type.application";
+		};
+		328CD6A51F9EE5B900B8A888 /* 信用卡管理Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 328CD6BD1F9EE5B900B8A888 /* Build configuration list for PBXNativeTarget "信用卡管理Tests" */;
+			buildPhases = (
+				328CD6A21F9EE5B900B8A888 /* Sources */,
+				328CD6A31F9EE5B900B8A888 /* Frameworks */,
+				328CD6A41F9EE5B900B8A888 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				328CD6A81F9EE5B900B8A888 /* PBXTargetDependency */,
+			);
+			name = "信用卡管理Tests";
+			productName = "信用卡管理Tests";
+			productReference = 328CD6A61F9EE5B900B8A888 /* 信用卡管理Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		328CD6B01F9EE5B900B8A888 /* 信用卡管理UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 328CD6C01F9EE5B900B8A888 /* Build configuration list for PBXNativeTarget "信用卡管理UITests" */;
+			buildPhases = (
+				328CD6AD1F9EE5B900B8A888 /* Sources */,
+				328CD6AE1F9EE5B900B8A888 /* Frameworks */,
+				328CD6AF1F9EE5B900B8A888 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				328CD6B31F9EE5B900B8A888 /* PBXTargetDependency */,
+			);
+			name = "信用卡管理UITests";
+			productName = "信用卡管理UITests";
+			productReference = 328CD6B11F9EE5B900B8A888 /* 信用卡管理UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		328CD6861F9EE5B900B8A888 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WYC;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "李胜军";
+				TargetAttributes = {
+					328CD68D1F9EE5B900B8A888 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					328CD6A51F9EE5B900B8A888 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 328CD68D1F9EE5B900B8A888;
+					};
+					328CD6B01F9EE5B900B8A888 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 328CD68D1F9EE5B900B8A888;
+					};
+				};
+			};
+			buildConfigurationList = 328CD6891F9EE5B900B8A888 /* Build configuration list for PBXProject "信用卡管理" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 328CD6851F9EE5B900B8A888;
+			productRefGroup = 328CD68F1F9EE5B900B8A888 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				328CD68D1F9EE5B900B8A888 /* 信用卡管理 */,
+				328CD6A51F9EE5B900B8A888 /* 信用卡管理Tests */,
+				328CD6B01F9EE5B900B8A888 /* 信用卡管理UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		328CD68C1F9EE5B900B8A888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328CD69B1F9EE5B900B8A888 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328CD6A41F9EE5B900B8A888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328CD6AF1F9EE5B900B8A888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0BCD49706FEDB663645302E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-信用卡管理-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55009284384D45CD3A190D89 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-信用卡管理/Pods-信用卡管理-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-信用卡管理/Pods-信用卡管理-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3583856483D4C1D93B412A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-信用卡管理/Pods-信用卡管理-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		328CD68A1F9EE5B900B8A888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32B4A5DA1F9EF2C70060F96F /* HttpTool.m in Sources */,
+				32B4A5D51F9EF2B40060F96F /* WYCInputController.m in Sources */,
+				32B4A5D61F9EF2B40060F96F /* WYCMeController.m in Sources */,
+				32B4A5D71F9EF2B40060F96F /* WYCChoiceCell.m in Sources */,
+				32B4A5D81F9EF2B40060F96F /* WYCStrCardCell.m in Sources */,
+				32B4A5D91F9EF2B40060F96F /* WYCAddMailCell.m in Sources */,
+				32B4A5CD1F9EF2960060F96F /* WYCHideCardController.m in Sources */,
+				32B4A5CE1F9EF2960060F96F /* WYCFmessgeController.m in Sources */,
+				32B4A5CF1F9EF2960060F96F /* WYCAddMailController.m in Sources */,
+				32B4A5D01F9EF2960060F96F /* WYCSetController.m in Sources */,
+				32B4A5D11F9EF2960060F96F /* WYCPaymentController.m in Sources */,
+				32B4A5D21F9EF2960060F96F /* WYCStrCardController.m in Sources */,
+				32B4A5D31F9EF2960060F96F /* WYCAboutMeController.m in Sources */,
+				32B4A5D41F9EF2960060F96F /* WYCChoiceController.m in Sources */,
+				32B4A5CC1F9EF2650060F96F /* WYCHomeCell.m in Sources */,
+				328CD7CF1F9EE96700B8A888 /* WYCPhotographController.m in Sources */,
+				328CD7D01F9EE96700B8A888 /* WYCBindingIDSideController.m in Sources */,
+				328CD7D11F9EE96700B8A888 /* WYCRigsterController.m in Sources */,
+				328CD7D21F9EE96700B8A888 /* WYCCityController.m in Sources */,
+				323BBC7C1FA03A4D0013A9EE /* WYCIDHoldController.m in Sources */,
+				328CD7D31F9EE96700B8A888 /* WYCBankCardController.m in Sources */,
+				328CD7D41F9EE96700B8A888 /* WYCBindingIDController.m in Sources */,
+				328CD7D51F9EE96700B8A888 /* WYCModifyController.m in Sources */,
+				328CD7D61F9EE96700B8A888 /* WYCLoginController.m in Sources */,
+				328CD7D71F9EE96700B8A888 /* WYCAuthenticationController.m in Sources */,
+				328CD7D81F9EE96700B8A888 /* WYCBindingIDSideController.h in Sources */,
+				323BBC7F1FA03BFE0013A9EE /* WYCDebitCardController.m in Sources */,
+				328CD7D91F9EE96700B8A888 /* WYCForgetController.m in Sources */,
+				328CD7DA1F9EE96700B8A888 /* ShowImageViewController.m in Sources */,
+				328CD7DB1F9EE96700B8A888 /* WYCAccount.m in Sources */,
+				328CD7DC1F9EE96700B8A888 /* UserInfo.m in Sources */,
+				328CD7DD1F9EE96700B8A888 /* WYCAccountTool.m in Sources */,
+				1BED32891FA6D43C00C81357 /* WYCHttpRequestBaseModel.m in Sources */,
+				328CD7DE1F9EE96700B8A888 /* WYCIsAppLoginTool.m in Sources */,
+				328CD7DF1F9EE96700B8A888 /* SaveShanhu.m in Sources */,
+				328CD7E01F9EE96700B8A888 /* WYCCityModel.m in Sources */,
+				328CD7E11F9EE96700B8A888 /* WYCBillController.m in Sources */,
+				328CD7E21F9EE96700B8A888 /* WYCPCardController.m in Sources */,
+				328CD7E31F9EE96700B8A888 /* WYCMemineController.m in Sources */,
+				328CD7E41F9EE96700B8A888 /* WYCInformationController.m in Sources */,
+				328CD7E51F9EE96700B8A888 /* WYCMymessegeController.m in Sources */,
+				328CD7E61F9EE96700B8A888 /* WYCSetcardController.m in Sources */,
+				328CD7E71F9EE96700B8A888 /* WYCSetUserController.m in Sources */,
+				328CD7E81F9EE96700B8A888 /* WYCSIDController.m in Sources */,
+				328CD7E91F9EE96700B8A888 /* WYCMSdetailedController.m in Sources */,
+				328CD7EA1F9EE96700B8A888 /* WYCAddcardController.m in Sources */,
+				328CD7EB1F9EE96700B8A888 /* WYCIDController.m in Sources */,
+				328CD7EC1F9EE96700B8A888 /* WYCMessegeCell.m in Sources */,
+				326881391FA1D7530097EFA5 /* WYCprovinceModel.m in Sources */,
+				328CD7ED1F9EE96700B8A888 /* WYCSeeBillController.m in Sources */,
+				328CD7EE1F9EE96700B8A888 /* WYCAddCardController.m in Sources */,
+				328CD7EF1F9EE96700B8A888 /* WYCRmtController.m in Sources */,
+				328CD7F01F9EE96700B8A888 /* WYCTranslationController.m in Sources */,
+				328CD7F11F9EE96700B8A888 /* WYCHistoryController.m in Sources */,
+				328CD7F21F9EE96700B8A888 /* WYCPlanController.m in Sources */,
+				328CD7F31F9EE96700B8A888 /* WYCDTViewCell.m in Sources */,
+				328CD7F41F9EE96700B8A888 /* WYCHeaderFooterView.m in Sources */,
+				328CD7F51F9EE96700B8A888 /* WYCRmtCell.m in Sources */,
+				328CD7F61F9EE96700B8A888 /* UIButton+CountDown.m in Sources */,
+				32B4A5CA1F9EF2100060F96F /* RSAUtil.m in Sources */,
+				32607CA21FA2D18C00D817FE /* WYCPickerView.m in Sources */,
+				328CD7F71F9EE96700B8A888 /* XMGVerticalButton.m in Sources */,
+				328CD7F81F9EE96700B8A888 /* NSString+Base64.m in Sources */,
+				1BED328C1FA708CE00C81357 /* AddressView.m in Sources */,
+				32B4A5CB1F9EF2100060F96F /* WYCRSAEncryptor.m in Sources */,
+				328CD7F91F9EE96700B8A888 /* PictureRotate.m in Sources */,
+				328CD7FA1F9EE96700B8A888 /* WYCNavigationController.m in Sources */,
+				328CD7FB1F9EE96700B8A888 /* UIView+XMGExtension.m in Sources */,
+				328CD7FC1F9EE96700B8A888 /* Foundation+Log.m in Sources */,
+				328CD7FD1F9EE96700B8A888 /* XMGTabBarController.m in Sources */,
+				328CD7FE1F9EE96700B8A888 /* WYCConst.m in Sources */,
+				328CD7FF1F9EE96700B8A888 /* UIBarButtonItem+WYCExtesion.m in Sources */,
+				328CD8001F9EE96700B8A888 /* NSDate+WYCExtision.m in Sources */,
+				328CD7CE1F9EE8D900B8A888 /* AppDelegate.m in Sources */,
+				328CD6A11F9EE5B900B8A888 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328CD6A21F9EE5B900B8A888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328CD6AB1F9EE5B900B8A888 /* _____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		328CD6AD1F9EE5B900B8A888 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				328CD6B61F9EE5B900B8A888 /* _____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		328CD6A81F9EE5B900B8A888 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 328CD68D1F9EE5B900B8A888 /* 信用卡管理 */;
+			targetProxy = 328CD6A71F9EE5B900B8A888 /* PBXContainerItemProxy */;
+		};
+		328CD6B31F9EE5B900B8A888 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 328CD68D1F9EE5B900B8A888 /* 信用卡管理 */;
+			targetProxy = 328CD6B21F9EE5B900B8A888 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		328CD6B81F9EE5B900B8A888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		328CD6B91F9EE5B900B8A888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		328CD6BB1F9EE5B900B8A888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650C59B55EE6DB2B7EA69330 /* Pods-信用卡管理.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43DXZZ6GM4;
+				GCC_PREFIX_HEADER = "/Users/zq/Downloads/信用卡管理/信用卡管理/Class/Other/Category/PrefixHeader.pch";
+				INFOPLIST_FILE = "信用卡管理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-52704665-qq.com.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		328CD6BC1F9EE5B900B8A888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0093B6BD6C6ABA74C3AC8650 /* Pods-信用卡管理.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 43DXZZ6GM4;
+				GCC_PREFIX_HEADER = "/Users/zq/Downloads/信用卡管理/信用卡管理/Class/Other/Category/PrefixHeader.pch";
+				INFOPLIST_FILE = "信用卡管理/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-52704665-qq.com.-----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		328CD6BE1F9EE5B900B8A888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "信用卡管理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-52704665-qq.com.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/信用卡管理.app/信用卡管理";
+			};
+			name = Debug;
+		};
+		328CD6BF1F9EE5B900B8A888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "信用卡管理Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-52704665-qq.com.-----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/信用卡管理.app/信用卡管理";
+			};
+			name = Release;
+		};
+		328CD6C11F9EE5B900B8A888 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "信用卡管理UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-52704665-qq.com.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "信用卡管理";
+			};
+			name = Debug;
+		};
+		328CD6C21F9EE5B900B8A888 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "信用卡管理UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-52704665-qq.com.-----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "信用卡管理";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		328CD6891F9EE5B900B8A888 /* Build configuration list for PBXProject "信用卡管理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328CD6B81F9EE5B900B8A888 /* Debug */,
+				328CD6B91F9EE5B900B8A888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		328CD6BA1F9EE5B900B8A888 /* Build configuration list for PBXNativeTarget "信用卡管理" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328CD6BB1F9EE5B900B8A888 /* Debug */,
+				328CD6BC1F9EE5B900B8A888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		328CD6BD1F9EE5B900B8A888 /* Build configuration list for PBXNativeTarget "信用卡管理Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328CD6BE1F9EE5B900B8A888 /* Debug */,
+				328CD6BF1F9EE5B900B8A888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		328CD6C01F9EE5B900B8A888 /* Build configuration list for PBXNativeTarget "信用卡管理UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				328CD6C11F9EE5B900B8A888 /* Debug */,
+				328CD6C21F9EE5B900B8A888 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 328CD6861F9EE5B900B8A888 /* Project object */;
+}
