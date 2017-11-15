@@ -89,6 +89,7 @@
     self.provinceField.inputAccessoryView = self.toolBar;
     _cityField.inputView = self.addressView;
     _cityField.inputAccessoryView = self.toolBar;
+   	
     
 //    [self setupcity];
     
@@ -256,7 +257,7 @@
     [self.view addSubview:_provinceField];
     
     
-    //选择省
+    //选择市
     UILabel * citylabel = [[UILabel alloc] init];
     citylabel.text = @"选择市:";
     citylabel.font = [UIFont systemFontOfSize:BigMiddleFont];
@@ -330,6 +331,7 @@
     [self.provinceField becomeFirstResponder];
 }
 - (void)click{
+    
     if (_provinceField.isFirstResponder) {
         [_provinceField resignFirstResponder];
         self.provinceField.text = [NSString stringWithFormat:@"%@",self.addressView.province];

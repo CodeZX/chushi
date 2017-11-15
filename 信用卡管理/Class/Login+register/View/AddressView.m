@@ -44,28 +44,14 @@
 - (void)companyClick{
     WYCLogFunc;
     NSMutableDictionary * params = [NSMutableDictionary dictionary];
+    
     params[@"id"] = @"0";
     [HttpTool POST:AddressList params:params success:^(NSURLSessionDataTask *task, id responseObject) {
         
     } fail:^(NSURLSessionDataTask *task, NSError *error) {
         
     }];
-//    [HttpTool POST:HTTPRequst parameters:params success:^(id responseObject) {
-//        WYCLog(@"----------%@",responseObject);
-//        if ([[responseObject objectForKey:@"Status"] intValue] > 0) {
-//            NSDictionary * DataDic  = responseObject[@"Data"];
-//            NSMutableArray * dsarray = DataDic[@"ds"];
-//            for (NSDictionary * dict in dsarray) {
-//                WYZDmptModel * model = [WYZDmptModel objectWithKeyValues:dict];
-//                [self.dmtpArray addObject:model.DNAME];
-//            }
-//
-//            [self.pickerView reloadAllComponents];
-//            self.province = [self.dmtpArray firstObject];
-//        }
-//    } failure:^(NSError *error) {
-//
-//    }];
+
     
     
 }

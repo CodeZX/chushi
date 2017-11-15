@@ -1109,7 +1109,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 43DXZZ6GM4;
-				GCC_PREFIX_HEADER = "/Users/zq/Downloads/信用卡管理/信用卡管理/Class/Other/Category/PrefixHeader.pch";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/信用卡管理/Class/Other/Category/PrefixHeader.pch";
 				INFOPLIST_FILE = "信用卡管理/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-52704665-qq.com.-----";
@@ -1125,7 +1126,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 43DXZZ6GM4;
-				GCC_PREFIX_HEADER = "/Users/zq/Downloads/信用卡管理/信用卡管理/Class/Other/Category/PrefixHeader.pch";
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/信用卡管理/Class/Other/Category/PrefixHeader.pch";
 				INFOPLIST_FILE = "信用卡管理/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "-52704665-qq.com.-----";
